@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSteganographer", "imageMsg\ImageSteganographer.csproj", "{C0B0F551-EA7C-4783-9EF7-4BDB650C95D4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ImageSteganographerSetup", "ImageSteganographerSetup\ImageSteganographerSetup.vdproj", "{157E840D-B79C-42D2-9C26-E8AC6E108758}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0B0F551-EA7C-4783-9EF7-4BDB650C95D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B0F551-EA7C-4783-9EF7-4BDB650C95D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B0F551-EA7C-4783-9EF7-4BDB650C95D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B0F551-EA7C-4783-9EF7-4BDB650C95D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157E840D-B79C-42D2-9C26-E8AC6E108758}.Debug|Any CPU.ActiveCfg = Debug
+		{157E840D-B79C-42D2-9C26-E8AC6E108758}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
